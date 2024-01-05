@@ -1,0 +1,30 @@
+.heads {
+  margin-top: 50px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: $color_1;
+  @include flex-space-between;
+  flex-wrap: wrap;
+  span {
+    color: $color_3;
+  }
+  h1 {
+    color: $color_1;
+  }
+  .filter-btn {
+    background: #ff5e5e;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      color: $color_4;
+    }
+  }
+  .h1 {
+    width: 100%;
+  }
+  p {
+    color: $color_5;
+  }
+}

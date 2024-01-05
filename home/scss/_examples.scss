@@ -1,0 +1,27 @@
+.examples {
+  @include flex-space-between;
+  flex-wrap: wrap;
+}
+.example {
+  width: 45%;
+  display: flex;
+  margin: 0 0 50px;
+  img {
+    width: 50%;
+    align-self: center;
+  }
+}
+
+.description {
+  padding-left: 20px;
+  .date {
+    color: $color_5;
+    text-transform: uppercase;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  p {
+    color: $color_1;
+  }
+}

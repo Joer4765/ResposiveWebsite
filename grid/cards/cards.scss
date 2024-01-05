@@ -1,0 +1,35 @@
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 35px 25px;
+  max-width: 1280px;
+  margin: auto;
+
+  .content {
+    padding: 20px;
+  }
+
+  &>div {
+    border: solid 1px gray;
+    box-shadow: 3px 3px 5px gray;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .button {
+    display: block;
+    background: gray;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .item1 {
+    grid-row: 1 / -1;
+    grid-column: 1 / 3;
+  }
+}

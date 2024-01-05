@@ -1,0 +1,23 @@
+.contact {
+  margin-top: 50px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  p {
+    color: $color_5;
+    font-size: 24px;
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  .contact-btn {
+    background: #ff5e5e;
+    padding: 15px 20px;
+    color: $color_4;
+    clear: both;
+    justify-content: center;
+    font-weight: bold;
+  }
+}

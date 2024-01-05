@@ -1,0 +1,30 @@
+@import "variables";
+@import "mixins";
+@import "functions";
+@import "header";
+@import "slogan";
+@import "heads";
+@import "works";
+@import "contact";
+@import "services";
+@import "examples";
+@import "footer";
+@import "media-queries";
+@import "menu-show";
+
+* {
+  font-family: $font-family_1;
+}
+body {
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  //max-width: 1280px;
+  max-width: pxToRem(1280px);
+  padding: 20px;
+}
+
+
+

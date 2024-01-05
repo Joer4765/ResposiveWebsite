@@ -1,0 +1,19 @@
+.services {
+  @include flex-space-between;
+  flex-wrap: wrap;
+  img {
+    max-width: 100px;
+  }
+}
+.service {
+  text-align: center;
+  width: 22%;
+  margin-top: 30px;
+  h2 {
+    color: $color_1;
+  }
+  p {
+    text-align: center;
+    color: $color_5;
+  }
+}

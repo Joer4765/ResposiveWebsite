@@ -1,0 +1,11 @@
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin button-style {
+  background-color: #ff5e5e;
+  padding: 15px 20px;
+  color: $color_4;
+  font-weight: bold;
+}

@@ -1,0 +1,22 @@
+.slogan {
+  margin-top: 75px;
+  display: block;
+  background: rgba(0, 0, 0, 0.12);
+  padding: 50px 0;
+  align-content: center;
+  * {
+    margin: 0 auto;
+    //max-width: 1280px;
+    max-width: pxToRem(1280px);
+    color: $color_1;
+    padding: 0 20px;
+  }
+  p {
+    &:nth-child(1) {
+      font-style: normal;
+      text-transform: uppercase;
+      font-size: 48px;
+      margin-bottom: 30px;
+    }
+  }
+}
